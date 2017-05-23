@@ -346,6 +346,12 @@
 			baseConfigurationReference = 1EDECA45C57ECC422967C8C6 /* Pods-LeeLearnRAC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactiveCocoa\"",
+					"${SRCROOT}/**",
+				);
 				INFOPLIST_FILE = LeeLearnRAC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LiYang.start.LeeLearnRAC;
@@ -358,6 +364,12 @@
 			baseConfigurationReference = 745F460CCC2615DC1F74CA1B /* Pods-LeeLearnRAC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/ReactiveCocoa\"",
+					"${SRCROOT}/**",
+				);
 				INFOPLIST_FILE = LeeLearnRAC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LiYang.start.LeeLearnRAC;
@@ -384,6 +396,7 @@
 				B64D3AE51ED4780F00C5157B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
