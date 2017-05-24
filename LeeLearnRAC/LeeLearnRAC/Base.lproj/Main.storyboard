@@ -35,9 +35,6 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.76239151999999999" green="1" blue="0.68561363880000004" alpha="1" colorSpace="calibratedRGB"/>
                                 <state key="normal" title="logging"/>
-                                <connections>
-                                    <action selector="loginClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5uc-8j-dBT"/>
-                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

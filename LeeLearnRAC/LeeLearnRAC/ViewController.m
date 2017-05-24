@@ -125,8 +125,6 @@
     // 当按钮被点击时,执行login命令.
     self.loginBtn.rac_command = self.loginCommand;
     
-    
-    
     // 执行两个网络操作,并在它们都完成后在控制台打印信息.
     // +merge: 传入一组signal信号,并返回一个新的RACSignal信号对象.这个新返回的RACSignal信号对象,传递所有请求的值,
     // 并在所有的请求完成时完成.即:新返回的RACSignal信号,在每个请求完成时,都会发送个消息;在所有消息完成时,除了发送消息外,还会触发"完成"相关的block.
@@ -140,13 +138,15 @@
 }
 -(RACSignal*)login{
     
-    
+    sleep(3);
+    return  [RACSignal empty];
 }
 -(RACSignal*)fetchUserRepos{
+    return  [RACSignal empty];
 
 }
 -(RACSignal*)fetchOrgRepos{
-    
+    return  [RACSignal empty];
 }
 
 
